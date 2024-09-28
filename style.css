@@ -71,4 +71,24 @@ section article ul{
 section article ul li{
     margin-bottom: 10px;
 }
+code{
+    white-space: pre-line;
+    line-height: 2;
+    background: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
 /* main section ends here */
+/* responsiveness starts here */
+@media (max-width: 480px){
+ body{
+    flex-direction: column;
+ }
+ header{
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+ }
+}
+/* responsiveness ends here */
